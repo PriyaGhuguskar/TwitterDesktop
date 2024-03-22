@@ -1,0 +1,118 @@
+.signup-twitterLogo {
+    width: 40px;
+    height: 33px;
+    align-items: center;
+}
+
+.sigup-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* text-align: left; */
+    /* justify-content: center; */
+    width: 750px;
+    height: 800px;
+    margin: 30px auto;
+    gap: 20px;
+    padding: 5px 40px;
+}
+
+.signup-title {
+    font-family: Segoe UI;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 39.9px;
+    text-align: left;
+    width: 100%;
+}
+
+.signup-inputDiv {
+    width: 670px;
+    height: 70px;
+    padding-left: 20px;
+    gap: 0px;
+    border-radius: 6px 0px 0px 0px;
+
+    opacity: 0px;
+    border: 1px solid rgba(0, 0, 0, 0.2)
+}
+
+.use-email {
+    font-family: Segoe UI;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23.94px;
+    text-align: left;
+    color: rgba(29, 161, 242, 1);
+    display: flex;
+    /* justify-content: left; */
+    align-self: flex-start;
+}
+
+.date-text {
+    font-family: Segoe UI;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: rgba(0, 0, 0, 1);
+    gap: 0;
+    opacity: 0.6;
+
+}
+
+.month-selection {
+    width: 312px;
+    height: 70px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    gap: 0px;
+    border-radius: 6px 0px 0px 0px;
+    padding-left: 20px;
+
+
+}
+
+.Day-selection {
+    width: 159px;
+    height: 70px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    gap: 0px;
+    border-radius: 6px 0px 0px 0px;
+
+    padding-left: 20px;
+}
+
+.Year-selection {
+    width: 159px;
+    height: 70px;
+    padding-left: 20px;
+    gap: 0px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 6px 0px 0px 0px;
+
+
+
+}
+
+.next-btn {
+    width: 670px;
+    height: 60px;
+
+    gap: 0px;
+    background: rgba(29, 161, 242, 1);
+
+    border-radius: 76px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0px;
+    font-family: Segoe UI;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23.94px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    margin-top: 30px;
+    cursor: pointer;
+
+}

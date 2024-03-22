@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.footer-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 15.23px;
+    text-align: left;
+    gap: 8px;
+    padding-left: 50px;
+    height: 8vh;
+}
+
+.homePage-wrapper {
+    display: flex;
+    height: 92vh;
+}
+
+.right-wrapper {
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+
+    margin: 35px auto;
+    gap: 20px;
+}
+
+.home-title {
+    font-family: Roboto;
+    font-size: 80px;
+    font-weight: 900;
+    line-height: 98.44px;
+    text-align: left;
+
+}
+
+.home-head {
+    font-family: Roboto;
+    font-size: 42px;
+    font-weight: 900;
+    line-height: 49.22px;
+    text-align: left;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+
+.signupInput {
+    display: flex;
+    width: 403px;
+    height: 62px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border: 1px solid rgba(228, 234, 237, 1);
+    margin-top: 15px;
+    border-radius: 42px;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 23.44px;
+    text-align: left;
+}
+
+.signupInput img {
+    width: 31px;
+    height: 32px;
+}
+
+.terms {
+    width: 373px;
+    height: 40px;
+
+
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.terms span {
+    color: rgba(29, 161, 242, 1);
+}
+
+.accout-term {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.75px;
+    text-align: left;
+    margin-top: 20px;
+
+}
+
+.accout-term span {
+    color: rgba(29, 161, 242, 1);
+}

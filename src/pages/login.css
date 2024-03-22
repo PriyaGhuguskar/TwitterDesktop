@@ -1,0 +1,78 @@
+.login-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    width: 450px;
+    height: 476px;
+    margin: 60px auto;
+    gap: 20px;
+    border: 1px 0px 0px 0px;
+
+}
+
+.twitterLogo {
+    width: 50px;
+    height: 40px;
+}
+
+.login-title {
+    font-family: Roboto;
+    font-size: 42px;
+    font-weight: 900;
+    line-height: 49.22px;
+    text-align: left;
+
+}
+
+.inputDiv {
+    width: 435px;
+    height: 70px;
+    border: none;
+    /* gap: 0px; */
+    border-radius: 6px 0px 0px 0px;
+    ;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    background-color: rgba(255, 255, 255, 1);
+    padding-left: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    font-family: Segoe UI;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23.94px;
+    text-align: left;
+
+}
+
+.login-btn {
+    width: 435px;
+    height: 60px;
+
+    gap: 0px;
+    background: rgba(29, 161, 242, 1);
+
+    border-radius: 76px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0px;
+    font-family: Segoe UI;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23.94px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    cursor: pointer;
+
+}
+
+.bottom-err {
+    font-family: Segoe UI;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23.94px;
+    text-align: left;
+    color: rgba(29, 161, 242, 1);
+    padding-top: 10px;
+}
